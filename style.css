@@ -1,0 +1,115 @@
+body, html{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+body{
+    font-family: 'Segoe UI', Arial, Helvetica, Tahoma, Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(180deg, #dddbd1, #d2dbdc);
+}
+.top{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(51, 180, 255);
+    position: fixed;
+    z-index: -1;
+}
+.chatbox{
+    height: calc(100% - 40px);
+    width: 95%;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 0px;
+}
+.profile-pic{
+    height: 31px;
+    width: 30px;
+}
+.form-rounded{
+    border-radius: 1rem;
+}
+
+.name{
+    font-weight: 400px;
+    color: #000;
+}
+.under-name{
+    font-size: 12px;
+    line-height: 15px;
+    max-height: 15px;
+}
+.icon{
+    font-size: 20px;
+    color: #9CA1A3;
+    margin-right: -90px !important;
+    margin-left: 90px !important;
+}
+#chatPanel>.card-header{
+    padding-bottom: 0.40rem;
+}
+.chat-pic{
+    height: 25px !important;
+    width: 25px !important;
+}
+.receive{
+    background-color:  rgba(51, 180, 255, 0.692);
+    border-radius: 6px;
+    padding: 10px;
+    display: inline-block;
+}
+.time{
+    font-size: 10px;
+    color: #8b8b8b;
+    margin-top: 3%;
+    margin-left: 1%;
+}
+.sent{
+    /* background-color: whitesmoke; */
+    background-color:  rgba(51, 180, 255, 0.116); 
+    border-radius: 6px;
+    padding: 10px;
+    display: inline-block;
+}
+.card{
+    height: 94vh;
+}
+#messages {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.icon1{
+    font-size: 20px;
+    color: #9CA1A3;
+}
+.dropdown-toggle::before{
+    display: none !important;
+}
+
+#lstChat {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.dropdown-toggle::after{
+    display: none !important;
+}
+
+#emoji{
+    position: absolute;
+    top: -30vh;
+    background-color: white;
+    border: 2px solid  rgb(51, 180, 255);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 4px, rgba(0, 0, 0, 0.23) 0px 2px 4px ;
+    border-radius: 5px;
+}
+
+#emoji #myTabContent{
+    height: 20vh;
+}
+
+#myTabContent a{
+    text-decoration: none;
+}
